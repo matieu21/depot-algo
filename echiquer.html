@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echiquier</title>
+    <style>
+        tr{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+
+    <table id="case">
+    </table>
+        
+            var html="<table>";
+            for (var i=1; i<=8; i++){
+                html += "<td>"+ i+ "</td>"
+               ;
+            for(var k=1; k<=8; k++){
+                html+="<td>"+(i*k)+"</td>"
+            }   
+
+html+="</tr>"};
+               document.getElementById("case").innerHTML= html;
+        </script>
+
+
+
+    
+</body>
+</html>
